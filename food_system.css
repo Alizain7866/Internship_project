@@ -1,0 +1,170 @@
+body{
+
+    margin:0;
+    padding:0;
+    background-image: linear-gradient(to right, rgb(255, 0, 170), rgb(255, 204, 0));
+    animation: ease-in 1.5s;
+    animation: fadeIn 1.5s ease-in; 
+    font-family: cursive;
+}
+
+@keyframes fadeIn {  
+    from {  
+        opacity:0;  
+    }  
+ 
+    to {  
+        opacity:1;  
+    }  
+ }
+
+.name{
+    display: flex;
+}
+.name img{
+
+position: relative;
+
+width:20px;
+
+height: 20px;
+
+padding-top: 15px;
+
+padding-right: 15px;
+}
+.container{
+
+    width:90%;
+    margin:0 auto;
+}
+
+.ge a{
+
+    text-decoration: none;
+    color:white;
+}
+
+.row{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+#Header{
+    position: relative;
+    background-color: purple;
+    top:0;
+    left:0;
+    width: 100%;
+    color:white;
+}
+.top_part{
+    color:white;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    border-radius: 20px 20px 0px 0px; 
+}
+.form_content{
+ 
+    display: grid;
+    position: relative;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.form_content label{
+
+padding-top:20px;
+
+color: black;
+
+padding-bottom: 20px;
+}
+#forms{
+
+position: relative;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+width: 100%;
+height: 100%;
+
+
+
+}
+
+
+
+
+
+.footer{
+
+    position: absolute;
+    background-color: black;
+    color:white;
+    bottom:0;
+    width:100%;
+}
+
+.buttons {
+    display: flex;
+    padding-top: 45px;
+    padding-left: 353px;
+    gap:25px;
+    padding-bottom: 44px;
+    
+}
+#GeSolucions, #Password{
+
+height: 32px;
+}
+.actual_form {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+}
+.the_form{
+    position: relative;
+    width:60%;
+    margin-top: 80px;
+    border-radius: 141px;
+    justify-content: center;
+}
+.a_div button:hover{
+
+background-color: black;
+
+color:white;
+}
+
+.a_div {
+    
+display: flex;
+    
+
+    
+
+    
+justify-content: center;
+}
+input#GeSolucions, input#Password {
+    border-radius: 13px;
+}
+.a_div button{
+    background-color: white;
+    padding: 10px 10px;
+    color: black;
+    border:0px;
+}
+.the_final_of_the_final{
+    display: flex;
+    justify-content: center;
+}

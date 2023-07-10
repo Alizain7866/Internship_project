@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="order.css">
+    
+
+</head>
+<body>
+    
+    <section class="Order_table">
+    <div class="container">
+        <div class="row">
+        <div id="data">
+            <input type="text" id="name" placeholder="Enter Item">
+            <input type="number" id="age" placeholder="Enter Quantity">
+            <input type="text" id="country" placeholder="Enter Amount">
+            <input type="text" id="Location" placeholder="Enter Location">
+
+            <button>Add</button>
+        </div>
+
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Amount</th>
+                <th>Location</th>
+
+           
+        </table>
+
+       
+        <div class="buttons">
+            <label for="Month">Monthly Amount Remaining</label>
+        <input class="amount_rem_Monthly" type="text" readonly placeholder="Monthly Amount Remaining" ><br>
+        <label for="Month">Daily Amount Remaining</label>
+        
+        <input class="amount_rem_daily" type="text" readonly placeholder="Daily Amount Remaining">
+    </div>
+    <div class="checkout_button">
+        <button class="News" onclick="reciept()" type="submit">Checkout</button>
+    </div>
+</div>
+</div>
+</section>
+
+
+    <script src="order.js"></script>
+    
+    
+</body>
+</html>

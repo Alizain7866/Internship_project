@@ -1,0 +1,41 @@
+body{
+
+    font-family: cursive;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.News{
+
+background-color: lightgreen;
+
+font-family: cursive;
+}
+
+.News:hover{
+
+    background-color: cyan;
+    color:black;
+    cursor: pointer;
+}
+
+.Order_table{
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+th,td {
+    border: 1px solid black;
+    padding: 42px;
+}
+
+#data {
+    margin-bottom: 10px;
+}
+
+#data input, button {
+    padding: 10px;
+    width: 90px;
+}

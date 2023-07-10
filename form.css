@@ -1,0 +1,120 @@
+body{
+
+    animation: ease-in 1.5s;
+    animation: fadeIn 1.5s ease-in; 
+    padding:0;
+    margin:0; 
+}
+button#please {
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background: black;
+    border: 0px;
+    color: white;
+}
+button#hiddens {
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background: black;
+    border: 0px;
+    color: white;
+}
+
+#hiddens:hover{
+
+    background-color: cyan;
+    color:black;
+    cursor: pointer;
+}
+#please:hover{
+
+    background-color: cyan;
+    color:black;
+    cursor: pointer;
+}
+@keyframes fadeIn {  
+    from {  
+        opacity:0;  
+    }  
+ 
+    to {  
+        opacity:1;  
+    }  
+ }
+
+.row.forms{
+
+
+
+    display: flex;
+}
+
+.container{
+
+    width:90%;
+    margin:0 auto;
+}
+
+
+.row.forms{
+
+display: flex;
+
+justify-content: center;
+
+gap: 25px;
+
+}
+
+    .col-lg-4 {
+        padding-left: 80px;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+        padding-right: 80px;
+        padding-top: 60px;
+    }
+    
+    .container{
+    
+        width:90%;
+        margin:0 auto;
+    }
+    .profile_image {
+        width: 200px;
+    }
+    .profile_image img {
+        width: 100%;
+    }
+    .profile_content h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile_content p {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .Profile_form {
+        display: grid;
+        gap: 67px;
+        grid-template-columns: 400px 150px;
+    }
+  
+    
+    form {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4,1fr);
+        row-gap: 45px;
+    }
+    .buttons {
+        display: flex;
+        top: 316px;
+        position: relative;
+        gap: 23px;
+        right: 45px;
+    }
