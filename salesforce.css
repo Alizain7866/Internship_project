@@ -1,0 +1,251 @@
+﻿label {
+    position: absolute;
+    width: 45px;
+    height: 22px;
+    right: 20px;
+    top: 20px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+    label:before {
+        position: absolute;
+        width: 20px;
+        content: "";
+        height: 20px;
+        left: 1px;
+        top: 1px;
+        border: 2px solid;
+        border-radius: 50%;
+        cursor: pointer;
+        background-color: black;
+        transition: 0.4s;
+    }
+
+
+    label.active:before {
+        left: 24px;
+        background: white;
+    }
+
+body.night {
+    background: black;
+    color: white;
+}
+
+
+#myChart {
+    width: 90% !important;
+    height: 90% !important;
+}
+
+.chartBox {
+    width: 1000px;
+    height: 500px;
+    margin-left: 20px;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+.whole-box {
+    display: flex;
+    /* height: 480px; */
+    height: auto;
+    width: 90%;
+    margin-top: 2%;
+    /* background-color: rgb(255, 0, 0); */
+    flex-flow: wrap;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+.box {
+    animation: fadeIn 5s;
+    margin-top: 3%;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    width: 290px;
+    height: 450px;
+    margin-left: 2%;
+    box-shadow: 0px 0px 12px grey;
+    margin-bottom: 3%;
+}
+
+    .box:hover {
+        transform: translate(-5%, -5%);
+        backface-visibility: hidden;
+        cursor: grab;
+    }
+
+#homes-images {
+    position: relative;
+    left: 15px;
+    top: 20px;
+    font-size: 50px !important;
+    animation: fadeIn 5s;
+}
+
+
+img {
+    border-radius: 50px;
+    width: 100%;
+    height: 150px;
+    animation: fadeIn 5s;
+}
+
+
+
+
+
+.main-content h4 {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    animation: fadeIn 5s;
+}
+
+.main-content {
+    margin-top: 60px;
+    margin-left: 20px;
+    animation: fadeIn 5s;
+}
+
+    .main-content p {
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        animation: fadeIn 5s;
+    }
+
+    .main-content a {
+        display: block;
+        margin-top: 54px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        animation: fadeIn 5s;
+    }
+
+.video-text {
+    margin-left: 3%;
+    animation: fadeIn 5s;
+}
+
+
+    .video-text p {
+        font-weight: 700;
+        font-size: large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(0, 0, 0);
+        animation: fadeIn 5s;
+    }
+
+.mains-tops {
+    display: flex;
+}
+
+.texts h1 {
+    margin-left: 15%;
+    color: rgb(0, 0, 0);
+    animation: fadeIn 5s;
+}
+
+.texts p {
+    line-height: 26pt;
+    margin-left: 15%;
+    text-align: justify;
+    margin-right: 30%;
+    width: 60%;
+    color: rgb(0, 0, 0);
+    animation: fadeIn 5s;
+    font-weight: bold;
+}
+
+
+
+.video-text video {
+    border-radius: 30px;
+    animation: fadeIn 5s;
+}
+
+
+
+
+
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    overflow: auto;
+}
+
+    /* Navbar links */
+    .navbar a {
+        float: left;
+        text-align: center;
+        padding: 12px;
+        color: rgb(0, 0, 0);
+        text-decoration: underline;
+        font-size: 17px;
+        margin-left: 30px;
+        animation: fadeIn 3s;
+    }
+
+        /* Navbar links on mouse-over */
+
+
+        .navbar a:hover {
+            color: #0c9df7;
+        }
+
+/* Current/active navbar link */
+
+
+
+
+@media screen and (max-width:1200px) {
+
+
+
+    .mains-tops {
+        display: block;
+    }
+
+    .texts h1 {
+        margin-left: 3%;
+    }
+
+    .texts p {
+        width: 80%;
+        margin-left: 3%;
+        font-size: x-large;
+    }
+
+    .box {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:900px) {
+
+
+
+
+
+    .box {
+        width: 80%;
+    }
+}
